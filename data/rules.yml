@@ -1,0 +1,58 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: foundation
+  - action: utter_foundation
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: main_customer
+  - action: utter_main_customer
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: achievement
+  - action: utter_achievement
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: service
+  - action: utter_service
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: mission
+  - action: utter_mission
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: ambition
+  - action: utter_ambition
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: valuation
+  - action: utter_valuation
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: chief
+  - action: utter_chief
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: solution
+  - action: utter_solution
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: technology
+  - action: utter_technology
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: contact
+  - action: action_hello_world

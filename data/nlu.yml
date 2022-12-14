@@ -1,0 +1,55 @@
+version: "3.1"
+
+nlu:
+- intent: foundation
+  examples: |
+    - công ty được thành lập vào năm nào?
+    - lịch sử phát triển của công ty như thế nào?
+    - BHSoft được hình thành như thế nào?
+
+- intent: main_customer
+  examples: |
+    - đối tượng khách hàng của công ty là ai?
+    - khách hàng của công ty đến từ đâu?
+    
+- intent: achievement
+  examples: |
+    - công ty đã đạt được những thành tựu gì?
+    - BHSoft đã đạt được những thành công gì?
+
+- intent: service
+  examples: |
+    - BHSoft cung cấp những dịch vụ gì?
+    - Công ty cung cấp những dịch vụ gì?
+
+- intent: mission
+  examples: |
+    - sứ mệnh của Công ty là gì?
+    - công ty có định hướng tương lai như thế nào?
+
+- intent: ambition
+  examples: |
+    - tầm nhìn của công ty
+
+- intent: valuation
+  examples: |
+    - giá trị cuả công ty là gì?
+
+- intent: chief
+  examples: |
+    - Ban lãnh đạo của công ty gồm những ai?
+
+- intent: solution
+  examples: |
+    - Công ty cung cấp những giải pháp gì?
+
+- intent: technology
+  examples: |
+    - Các công nghệ chính được BHSoft
+    - Công ty sử dụng gồm những gì?
+
+- intent: contact
+  examples: |
+    - Thông tin liên hệ
+    - Các kênh liên hệ của BHSoft
+    - Công ty

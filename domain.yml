@@ -1,0 +1,46 @@
+version: "3.1"
+
+intents:
+  - foundation
+  - main_customer
+  - achievement
+  - service
+  - mission
+  - ambition
+  - valuation
+  - chief
+  - technology
+  - contact
+  - solution
+
+responses:
+  utter_foundation:
+  - text: "BHSoft/ Công ty được thành lập vào năm 2014."
+  utter_main_customer:
+  - text: "Khách hàng của BHSoft/ Công ty đến từ khắp nơi trên thế giới, bao gồm các công ty Châu Âu, Mỹ, Singapore, Nhật Bản."
+  utter_achievement:
+  - text: "Hơn 40 đối tác là các công ty có giá trị trên 1 triệu đô"
+  utter_service:
+  - text: "Dịch vụ tư vấn công nghệ"
+  utter_mission:
+  - text: "hỗ trợ khánh hàng trên toàn cầu"
+  utter_ambition:
+  - text: "hiểu biết chung về sản phẩm"
+  utter_valuation:
+  - text: "chỉ chọn những cá nhân giàu kinh nghiệm và kỹ thuật"
+  utter_chief:
+  - text: "Giám đốc điều hành (Managing Director): Trần Vũ Việt Anh"
+  utter_solution:
+  - text: "Tối ưu hóa quy trình tuyển dụng với giải pháp ATS."
+  utter_technology:
+  - text: "Machine Learning 3D Model with NVIDIA Cuda SDK, TensorFlow & OpenCV"
+  utter_contact:
+  - text: "Địa chỉ: Tầng 6, Tòa TechnoSoft, đường 15/8 Duy Tân, quận Cầu Giấy,
+Hanoi, Vietnam."
+
+actions:
+  - action_hello_world
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
